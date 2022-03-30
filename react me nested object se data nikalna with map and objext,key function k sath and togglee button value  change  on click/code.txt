@@ -1,0 +1,8 @@
+{Object.keys(data[alignment]).map((item, index) => {
+	const shoe = data[alignment][item];
+	return <ProductItems shoe={shoe} key={index} item={item} alignment={alignment} />;
+})}
+
+data ek file h jo import ki h
+alignment ek state h jisme initial valu kuch hogi
+product item ek component h jo me next  file m h
